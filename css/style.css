@@ -1,0 +1,54 @@
+ #navbar-header{
+  background-color: #9999;
+}
+
+ a.navbar-brand{
+  font-family: "Comic Sans MS", cursive;
+  font-weight: bold;
+  bottom: 50px;
+
+}
+ .navbar-default .navbar-brand{
+  font-size: 1.6em;
+  color:#000;
+  padding-top: 10px;
+}
+a:link, a:hover, a:focus {
+  cursor: default;
+}
+.row > div {
+  background-color: #9999;
+  height: 1000px;
+}
+.titles {
+  font-family: "Comic Sans MS", cursive;
+  font-weight: bold;
+}
+h5 {
+  font-size: 1.4em;
+}
+p{
+  font-family: "Comic Sans MS", cursive;
+}
+
+.navbar-default .navbar-collapse, .navbar-default .navbar-form {
+    border-color: #000;
+    border-radius: 0px
+}
+.navbar-default .navbar-nav>li>a {
+  font-family: "Comic Sans MS", cursive;
+  font-size: 1.3em;
+  color: #000;
+}
+/*Custom layouts*/
+@media (max-width: 768px) {
+  .container{
+    margin-left: 35px;
+    margin-right: 35px;
+  }
+}
+@media (min-width: 768px){
+    .navbar {
+    border-radius: 0px;
+  }
+}
